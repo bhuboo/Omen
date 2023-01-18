@@ -1,0 +1,13 @@
+.scroll-tracker{
+       position: fixed;
+       inset: 0 0 auto;
+       height: 0.5rem;
+       background-color: blue;
+       transform-origin: left;
+}
+.imAGE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}

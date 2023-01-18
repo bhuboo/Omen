@@ -1,0 +1,1402 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@media screen and (max-width: 376px) and (min-width: 0px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: 'poppins',sans-serif;
+        overflow-x: hidden;
+    }
+    /* hamburger menu after click */
+    
+    
+    
+    /* search box top */
+    .search{
+        width: 100%;
+        height: 18vh;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        z-index: 1;
+    }
+    .searchA{
+        width: 56%;
+        height: 35%;
+        border: none;
+        margin-top: -4rem;
+    }
+    .searchA:focus{
+        outline: none;
+    }
+    .searchB{
+        font-size: 20px;
+        color: black;
+        margin-top: -4.2rem;
+        margin-right: 0.9rem;
+    }
+    .searchC{
+        font-size: 22px;
+        color: black;
+        margin-top: -4rem;
+        margin-left: 1rem;
+        border: none;
+    }
+    .searchD{
+        width: 100%;
+        height: 2px;
+        color: black;
+    }
+    /* search box top  end.....................................*/
+    .menu2{
+        display: inline-block;
+    }
+    .containerA{
+        background: rgb(255, 255, 255);
+        margin-top: 0.2rem;
+    }
+    .bg-lig{
+        background: rgb(255, 255, 255);
+    }
+    .brand1{
+        position: relative;
+        left: 0.4rem;
+    }
+    .navres{
+        height: 670px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navitemA{
+        padding:8px;
+        margin-left: 3rem;
+        border-bottom: 1px solid rgb(202, 200, 200);
+    }
+    .nav-link{
+        color: black;
+        font-size: 11.4px;
+        font-weight: bold;
+        letter-spacing: 0.4ch;
+        font-family: sans-serif;
+    }
+    #coo{
+        position: relative;
+        left: 1rem;
+    }
+    #change1{
+     visibility: visible;
+    }
+    #change{
+        display: none;
+    }
+    .containerB{
+        background-image:url(/img/2.png);
+        background-size: cover;
+        min-height: 600px;
+        width: 100%;
+        position: relative;
+        margin-left: -1rem;
+        margin-top: -0.2rem;
+        display: flex;
+        flex-direction: row;
+        transition: 0.5s;
+        opacity: 1;
+        animation: container  1.2s ease-out;
+    }
+    @keyframes container {
+        from{
+            box-shadow: inset 1px 1px 0px 260px white;
+        }
+        to{
+            box-shadow: inset 0px 0px 0px 0px white;
+        }
+    }
+    .Elevant{
+        color: rgb(255, 255, 255);
+        font-size: 2.8rem;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        position: relative;
+        margin-left: 1rem;
+        margin-top: -3rem;
+        transition: 1s;
+        animation: elavant 1s ease-in;
+        animation-delay: 1.5s;
+    }
+    @keyframes elavant {
+        from{
+            margin-left: -2rem;
+        margin-top: -6rem;
+            opacity: 0;
+        }
+        to{
+            margin-left: 1rem;
+        margin-top: -3rem;
+            opacity: 1;
+        }
+    }
+    .ElevantA{
+        color: rgb(255, 255, 255);
+        font-size: 2.8rem;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        position: relative;
+        margin-left: -15.5rem;
+        margin-top: 2rem;
+        animation: elavantA 1s ease-in;
+        animation-delay: 1.5s;
+        transition: 1s;
+    }
+    @keyframes elavantA {
+        from{
+            margin-left: -10.5rem;
+            margin-top: -1rem;
+            opacity: 0;
+        }
+        to{
+            margin-left: -15.5rem;
+            margin-top: 2rem;
+            opacity: 1;
+        }
+    }
+    .OMEN{
+        bottom: 5rem; 
+        left: 4.6rem; 
+        background-color: white; 
+        width: 14rem; 
+        font-size: 12px; 
+        font-weight: bolder;
+    }
+    .d-fle {
+        position: relative;
+        /* padding: 11px 30px 12px; */
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: #222;
+        background-color: white;
+        font-size: 12px;
+        transform: translate3d(10px, 30px, 0);
+        width: 122px;
+        height: 42px;
+        left: -4.4rem;
+        top: 21rem;
+        border: none;
+    }
+    .d-fle:hover{
+        position: relative;
+        top: 20.8rem;
+        border: none;
+    }
+    .d-fle::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    .d-fle:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+      .d-fle::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    
+    /* second section end */
+    /* third section strat */
+    .secondsecmL{
+        margin-top: -6rem;
+    }
+    #randombg{
+        position: relative;
+        left: -16rem;
+        top: -23rem;
+        max-height: 500px;
+        max-width: 500px;
+        display: inline-flex;
+        background-color: red;
+    }
+    .fea{
+        position: relative;
+        left: 2.1rem;
+        top: 8rem;
+        font-size: 12px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.888);
+        width: 4rem;
+        display: inline-block;
+        height: 16px;
+        padding-top: 2px;
+        font-weight: bold;
+        border-radius: 2px;
+        letter-spacing: 0.5px;
+        padding-left: 2px;
+        z-index: 1;
+    }
+    .OMEN17{
+        position: relative;
+        top: -23.6rem;
+        font-size: 3rem;
+        left: -8.6rem;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.934);
+        font-family: Arial;
+    }
+    .OMEN18{
+        position: relative;
+        top: -24.8rem;
+        font-size: 3rem;
+        left: -9.4rem;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.934);
+        font-family: Arial;
+    }
+    .OMEN19{
+        position: relative;
+        top: -25rem;
+        left: -4.4rem;
+        font-size: 16px;
+        color: rgb(5, 2, 4);
+    }
+    .imglap{
+        position: relative;
+        height: 50%;
+        width: 200%;
+        left: 2rem;
+        top: -33rem;
+    }
+    #buttonaa{
+        position: relative;
+        top: -27.2rem;
+        left: 1.6rem;
+        padding: 8px 22px 8px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        transform: translate3d(10px, 30px, 0);
+    }
+    #buttonaa:hover{
+        position: relative;
+        top: -30.4rem;
+    }
+    #buttonaa::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    #buttonaa:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+    #buttonaa::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+            /* third potion end   */  
+            /* fourth potion start */
+    
+    
+    
+    
+            .vectore{
+                position: relative;
+                top: -42rem;
+                left: 0;
+                height: 800px;
+                width: 110%;
+    
+    }
+    .imgh{
+        max-width: 90%;
+        height: auto;
+        position: relative;
+        top: -14rem;
+        /* margin-top: 16rem; */
+        margin-left: 11%;
+    
+    }
+    
+    /* triangle background linear red orange....................................................... */
+    .triangle{
+        width: 380px;
+        height: 400px;
+        position: absolute;
+        margin-top: -30rem;
+        margin-left: -20rem;
+        background: linear-gradient(90deg,red,orange);
+        transform: rotate(-45deg);
+    }
+    .just{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        top: -21rem;
+        left: -24rem;
+        font-weight: bolder;
+    }
+    .just1{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        top: -21rem;
+        left: -23.5rem;
+        font-weight: bolder;
+    }
+    .just2{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        top: -18.6rem;
+        left: -39rem;
+        font-weight: bolder;
+    }
+    .just3{
+        font-family: Arial;
+        color: rgba(255, 250, 250, 0.86);
+        font-size: 16px;
+        position: relative;
+        top: -15.5rem;
+        left: -49.4rem;
+    }
+    .just4{
+        display: none;
+        font-family: Arial;
+        color: rgba(255, 255, 255, 0.86);
+        font-size:0.8rem;
+        position: relative;
+        top: 6rem;
+        left: -60rem;
+        padding: 10px 40px 10px;
+        border:0.2px solid rgba(255, 255, 255, 0.374);
+        font-weight: bold;
+    }
+    /* fourth potion end   ************************************************************** */
+    /* fifth potion  start   ************************************************************** */
+     
+     
+                  .vectore2{
+            position: relative;
+    top: -56rem;
+    z-index: 1;
+    left: 12px;
+    background: white;
+    }
+    .dust{
+        position: relative;
+        left: 1rem;
+        top: 16rem;
+        width: 100%;
+    }
+    .dust1{
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        left: -4.6rem;
+        top: -20rem;
+    }
+    .dust2{
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        left: -5.2rem;
+        top: -21rem;
+    }
+    #buttonaa1{
+        position: relative;
+        top: -21.5rem;
+        left: -6rem;
+        padding: 6px 20px 6px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        transform: translate3d(10px, 30px, 0);
+    }
+    #buttonaa1:hover{
+        position: relative;
+        top: -21.7rem;
+    }
+    #buttonaa1::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    #buttonaa1:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+    #buttonaa1::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    .d-fle1 {    
+        width: 124px;
+        height: 36px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        background: #fff;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        font-size: 12px;
+        left: -5.4rem;
+        top: -17.6rem;
+        border: 1px solid rgba(0, 0, 0, 0.642);
+    }
+    .d-fle1:hover{
+        position: relative;
+        top:-17.8rem ;
+    }
+    
+    .d-fle1:before {
+        content: '';
+        background-image: linear-gradient(177deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        position: absolute;
+        top: -1px;
+        left:-1px;
+        background-size: 400%;
+        z-index: -1;
+        /* filter: blur(5px); */
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .d-fle1:hover:before {
+        opacity: 10;
+    }
+    
+    .d-fle1:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:#fff;
+        background-size: cover;
+        left: 0;
+        top: 0;
+    }
+    /* fifth position end  **********************************************/
+    /* six position start mouse*********************************************** */
+        
+              .dust3{
+                position: relative;
+                background: linear-gradient(180deg,red,#FF55E1);
+                height: 370px;
+                top: 2rem;
+                width: 52%;
+                left: 10px;
+       
+    }
+    .dust4{
+        position: relative;
+        top: 1rem;
+        width: 100%;
+    }
+    .dust5{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bolder;
+    }
+    #buttonaa2{
+        position: relative;
+        padding: 8px 34px 8px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        font-size: 12px;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+        border: none;
+    }
+    #buttonaa2:hover{
+        position: relative;
+        top: -0.4rem;
+        color: rgb(69, 65, 65);
+        background: #e9e6e8;
+    }
+    
+    
+     /* six position start mouse*********************************************** */
+     /* seven  position start card*********************************************** */ 
+                   
+     
+                        .vectore3{
+                            position: relative;
+                            top: -52rem;
+                            /* left: 0rem; */
+                            overflow-x: scroll;
+                            overflow-y: hidden;
+                      }
+    
+                      /*  card  head start ******************************** */
+                      .img-card{
+                        width: 50%;
+                      }
+                      .img-card:hover{
+                        width:55%;
+                      }
+                         .cust{
+                            font-size: 1rem;
+                            font-weight: bolder;
+                            font-family: sans-serif;
+                            position: sticky;
+                            left: 28px;
+                            color: black;
+    }
+    
+    /* first card start*************************** */
+                          .cust1{
+                            position: relative;
+                            width: 80%;
+                            height: 420px;
+                            margin-left: 1rem;
+                            background: #f6f3f4;
+                            margin-top: 1rem;
+    }
+    .cust1:hover{
+        background: rgb(255, 255, 255);
+        width: 80%;
+    }
+    .cust2{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1rem;
+    }
+    .cust3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: rgb(82, 79, 79);
+    }
+    #buttonaa3{
+        position: relative;
+        left: -0.6rem;
+        padding: 8px 20px 8px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 12px;
+        transform: translate3d(10px, 30px, 0);
+    }
+    #buttonaa3:hover{
+        position: relative;
+        top: -0.2rem;
+    }
+    #buttonaa3::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    #buttonaa3:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+    #buttonaa3::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    .d-fle2 {   
+         width: 140px;
+        height: 35px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        background: #fff;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        font-size: 12px;
+        left: rem;
+        top: 3rem;
+        border: 1px solid rgba(0, 0, 0, 0.642);
+    }
+    .d-fle2:hover{
+        position: relative;
+        top:2.9rem ;
+    }
+    
+    .d-fle2:before {
+        content: '';
+        background-image: linear-gradient(177deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        position: absolute;
+        top: -1px;
+        left:-1px;
+        background-size: 400%;
+        z-index: -1;
+        /* filter: blur(5px); */
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .d-fle2:hover:before {
+        opacity: 10;
+    }
+    
+    .d-fle2:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:#fff;
+        background-size: cover;
+        left: 0;
+        top: 0;
+    }
+    /* second card start ************************************888 */
+    
+                                 .custA1{
+                                    position: relative;
+                                    width: 80%;
+                                    height: 420px;
+                                    background: #f6f3f4;
+                                    margin-top: -30rem;
+                                    margin-left: 49rem;
+    }
+    .custA1:hover{
+        background: rgb(255, 255, 255);
+        width: 80%;
+    }
+    .custA2{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1rem;
+    }
+    .custA3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: rgb(82, 79, 79);
+    }
+    #buttonaa4{
+        position: relative;
+        top: 0.6rem;
+        padding: 8px 20px 8px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 12px;
+        left: -9px;
+        transform: translate3d(10px, 30px, 0);
+    }
+    #buttonaa4:hover{
+        position: relative;
+        top: 0.4rem;
+    }
+    #buttonaa4::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    #buttonaa4:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+    #buttonaa4::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    /* third card start ************************************888 */
+    
+    
+    
+                                 .custB1{
+                                    position: relative;
+                                    width: 80%;
+                                    height: 420px;
+                                    background: #f6f3f4;
+                                    margin-top: -33rem;
+                                    margin-left: 97rem;
+       
+    }
+    .custB1:hover{
+        background: rgb(255, 255, 255);
+        width: 80%;
+    }
+    .custB2{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1rem;
+    }
+    .custB3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: rgb(82, 79, 79);
+    }
+    .custB4{
+        position: relative;
+        top: -1rem;
+        font-size: 10px;
+    }
+    /* fourth card ****************************************** */
+                                         .custC1{
+                                            position: relative;
+                                            width: 80%;
+                                            height: 420px;
+                                            background: #f6f3f4;
+                                            margin-top: -39rem;
+                                            margin-left: 145rem;
+    }
+    .custC1:hover{
+        background: rgb(255, 255, 255);
+        width: 66%;
+    }
+    
+    
+    /* section seven  ********************************* */
+                                           .vectore5{
+                                            position: relative;
+                                            top: -62rem;
+                                            height: 770px;
+    }
+    
+    .aust{
+        height: 250px;
+        background: linear-gradient(-90deg,rgb(7, 7, 7) 30%,rgb(22, 22, 22));
+        width: 100%;
+        position: relative;
+        top: 4rem;
+    }
+    .aust1{
+        position: relative;
+        height: 120px;
+        width: 120px;
+        top: -4rem;
+        left: 8rem;
+        background: linear-gradient(90deg,rgb(11, 11, 11),rgb(0, 0, 0) 80%,rgb(22, 22, 22));
+        box-shadow: inset 2px -30px 30px rgb(39 39 39);
+        border-radius: 50%;
+    }
+    .sagustimg{
+        width: 50%;
+    }
+    .aust2{
+        display: none;
+        content: "";
+        width: 170px;
+        height: 1px;
+        background: linear-gradient(90deg,#FF55E1,red,#FFB400);
+        transform: rotate(45deg);
+        position: relative;
+        left: -8px;
+        top: 4px;
+    }
+    .aust3{
+        font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: -2rem;
+    margin-left: 5.5rem;
+    }
+    .aust4{
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #fff;
+        font-weight: bolder;
+        margin-top: -0.5rem;
+        margin-left: 2.2rem;
+    }
+    .aust5{
+        position: absolute;
+        left: 5.5rem;
+        top: 19.6rem;
+        width: 230px;
+    }
+    .aust6{
+        font-size: 12px;
+        color: rgb(57, 54, 54);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 2rem;
+        position: relative;
+        top: -2rem;
+    }
+    #buttonaa5{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: -10.6rem;
+        left: 1.6rem;
+        padding: 6px 19px 6px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 10px;
+        transform: translate3d(10px, 30px, 0);
+    }
+    #buttonaa5:hover{
+        position: relative;
+        top: -10.8rem;
+    }
+    #buttonaa5::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: var(--hovera,linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400));
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        transition: 0.8s;
+        border-radius: inherit;
+        background-size: 100%;
+    }
+    #buttonaa5:hover::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        transform: translate3d(0px, 18px, 0px) scale(0.8);
+        filter: blur(15px);
+        /* opacity: var(0.80);
+        transition: opacity 0.3s; */
+        border-radius: inherit;
+        background-size: 400%;
+        animation: pry 9s linear  infinite;
+    
+          }
+    @keyframes pry {
+        0%   {
+            background-position: 0,0
+        }
+        50%{
+            background-position: 200%,0
+        }
+        100% {
+            background-position: 0,0
+        }
+      }
+    #buttonaa5::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    .d-fle3 {
+        width: 130px;
+        height: 30px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        background: #fff;
+        cursor: pointer;
+        position: absolute;
+        z-index: 0;
+        margin-left: 5rem;
+        margin-top: 40rem;
+        border: 1px solid rgba(0, 0, 0, 0.642);
+        font-size: 12px;
+    }
+    .d-fle3:hover{
+        position: absolute;
+        margin-top:39.8rem ;
+    }
+    
+    .d-fle3:before {
+        content: '';
+        background-image: linear-gradient(177deg,#FF55E1,red,#FFB400,#FF55E1,red,#FFB400);
+        position: absolute;
+        top: -1px;
+        left:-1px;
+        background-size: 400%;
+        z-index: -1;
+        /* filter: blur(5px); */
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .d-fle3:hover:before {
+        opacity: 10;
+    }
+    
+    .d-fle3:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:#fff;
+        background-size: cover;
+        left: 0;
+        top: 0;
+    }
+    
+    /*  foter  section **********************************  */
+                               .footermedia{
+                                margin-top: -75rem;
+                               }
+    .buttonDIS{
+        width: 100%;
+        background: rgba(12, 12, 12, 0.882);
+        height: 12vh;
+        color: #f6f3f4;
+        border: none;
+    }
+    .buttonDIS::after {
+        content: '\002B';
+        position: absolute;
+        float: right;
+        color: #222;
+        font-weight: 100;
+        font-size: 32px;
+        right: 12px;
+        margin-top: -30px;
+    }  
+    .active::after {
+        content: "\2212";
+        animation: minus 1s;
+      }
+      @keyframes minus {
+        0%   {
+            transform: rotate3d(90deg)
+        }
+        50%{
+            transform: rotate(45deg)
+        }
+        100% {
+            transform: rotate(0deg)
+        }
+      }
+    .buttonDIS2{
+        font-size: 12px;
+        text-decoration: none;
+        display: inline;
+        position: relative;
+        left: 1rem;
+        top: -15px;
+        color: white;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+    .buttonDIS3{
+        margin-left: 45vmax;
+        font-size: 1rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        background: white;
+        position: relative;
+        top: -14px;
+    }
+    .icon{
+        color: #fff;
+    }
+    .buttonDIS4{
+        width: 100%;
+        height: 8vh;
+        background: #222;
+        transition: 0.2s;
+        position: relative;
+        /* font-size: 9px; */
+        display: none;
+    }
+    .buttonDIS5{
+        color: rgb(185, 180, 180);
+        font-size: 10px;
+        margin-left: 1rem;
+        font-family: sans-serif;
+        margin-top: 1rem;
+    }
+    .divcon{
+        position: relative;
+        margin-top: 0;
+        background: #1b1b1b;
+        transition: 00.2s;
+        height: 400px;
+    }
+    
+    .fhead{
+        font-size: 12px;
+        color: rgb(205, 197, 197);
+        margin-left: 2rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .fhead1{
+        font-size: 10px;
+        color: white;
+        list-style: none;
+        margin-left: 1rem;
+    }
+    .fhead2{
+       color: white;    
+       padding: 5px 0; 
+    }  
+    .fhead3{
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .fheadshop{
+        font-size: 12px;
+        color: rgb(205, 197, 197);
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+    .fhead1shop{
+        font-size: 10px;
+        color: white;
+        list-style: none;
+        margin-left: 1rem;
+    }
+    .fheadA{
+        font-size: 12px;
+        color: rgb(205, 197, 197);
+        margin-top: -14rem;
+        margin-left: 14rem;
+    }
+    .fhead1down{
+        font-size: 12px;
+        color: white;
+        list-style: none; 
+        margin-left: 13rem;
+    }
+    .fheadsus{
+        font-size: 12px;
+        color: rgb(205, 197, 197);
+        margin-left: 14rem;
+    }
+    .fhead1sus{
+        font-size: 10px;
+        color: white;
+        list-style: none;
+        margin-left: 13rem;
+    }
+    .fheadB{
+        font-size: 12px;
+        color: rgb(205, 197, 197);
+        margin-top: -8rem;
+        margin-left: 2rem;
+    }
+    .fhead1omen{
+        font-size: 10px;
+        color: white;
+        list-style: none;
+        margin-left: 1rem;
+    }
+    .triangleicon{
+        display: none;
+    
+    }
+    .triangleicon:hover{
+        background: rgb(75, 71, 71);
+    }
+    .triangletext{
+      display: none;
+    }
+    .triangleA{
+        width: 360px;
+        height: 360px;
+        top: 8rem;
+        left: -3rem;
+        position: relative;
+        background: linear-gradient(45deg,orange,red,rgb(255, 0, 212));
+        transform: rotate(135deg);
+    }
+    .indiaenglish{
+        position: relative;
+        top: 18rem;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        border: 1px solid rgba(140, 136, 136, 0.508);
+        padding: 10px 20px;
+        left: -40.8rem;
+        font-size: 14px;
+    }
+    .indiaenglish:hover{
+        color: white;
+        border: 1px solid white;
+    }
+    .divcon1{
+        height: 200px;
+        background: #222;
+    }
+    .ffhead{
+        color: rgb(180, 175, 175);
+        margin-top: -7rem;
+        margin-left: 2rem;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .ffhead1{
+        color: white;
+        /* margin-left: 0rem; */
+        position: relative;
+        left: -20rem;
+        padding-left: 12px;
+        margin-top: -2rem;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: HPSimplifiedRegular,Arial,sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+    }
+    .fihead{
+        padding: 0px 20px;
+        color: white;
+        font-size: 16px;
+    }
+    .ffhead12{
+        position: relative;
+        top: 1rem;
+        left: -33rem;
+        text-decoration: none;
+        color: white;
+        font-family: HPSimplifiedRegular,Arial,sans-serif;
+        font-weight: bold;
+    }
+    .fihead1{
+        margin-top: 8rem;
+        margin-left: -48rem;
+    }
+}
